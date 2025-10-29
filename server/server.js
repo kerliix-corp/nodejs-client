@@ -5,5 +5,5 @@ dotenv.config();
 const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-  console.log(`Example client running on http://localhost:${PORT}`);
+  console.log(`Demo client running on http://localhost:${PORT}`);
 });
